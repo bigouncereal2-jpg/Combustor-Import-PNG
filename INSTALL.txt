@@ -1,0 +1,23 @@
+Combustor Import PNG
+
+Install MelonLoader for Combustor before installing a mod. Close Combustor before adding or removing mod files.
+
+1. In Steam, right-click Combustor and choose Manage > Browse local files.
+2. Extract this ZIP into the folder containing EngineSimulator.exe. Merge the Mods and UserData folders when prompted.
+3. Start Combustor. If the Mods menu add-on is installed, the main menu's Mods list will show Import PNG.
+
+The extracted paths beside EngineSimulator.exe should be:
+  Mods\CombustorPngImport.dll
+  UserData\CombustorPng\CombustorPngDecoder.dll
+
+To install other MelonLoader mods, place a standalone mod DLL in Mods. If a mod ZIP includes folders such as Mods or UserData, extract it into the game folder and keep that layout. Restart the game after installing a mod.
+
+In Sandbox, press Esc and choose Import PNG, or copy a PNG image or PNG file and press Ctrl+V. Move the preview over the grid, use the scroll wheel to resize it, and left-click to place. Right-click or Esc cancels the preview.
+
+Visible pixels become colored walls made from the selected wall material. Transparent pixels leave existing cells alone. The importer skips pixels below 50 percent opacity. Build limits and budgets still apply.
+
+Keep the .engine.pngcolors file alongside its .engine file when sharing a saved colored build. Both players need the PNG mod to see the colors. Share codes carry the wall layout only.
+
+To remove the mod, close the game and remove Mods\CombustorPngImport.dll and UserData\CombustorPng\CombustorPngDecoder.dll. Keep any .pngcolors files you want to use again later.
+
+Tested on Windows x64, Combustor Steam build 26701522, with MelonLoader 0.7.3.
